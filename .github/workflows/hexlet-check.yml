@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      #- name: Hexlet project check
-      #  uses: hexlet/project-action@release
-      #  with:
-      #    hexlet-id: ${{ secrets.HEXLET_ID }}
+      - name: Hexlet project check
+        uses: hexlet/project-action@release
+        with:
+          hexlet-id: ${{ secrets.HEXLET_ID }}
